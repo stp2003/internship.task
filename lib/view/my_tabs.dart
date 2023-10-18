@@ -22,7 +22,8 @@ class MyTabs extends StatelessWidget {
               Tab(text: 'B'),
             ],
           ),
-          title: const Text('Color App'),
+          title: const Text('Color App  \n Widget 1'),
+          centerTitle: true,
         ),
         body: TabBarView(
           children: [
