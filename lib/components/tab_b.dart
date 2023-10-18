@@ -34,7 +34,7 @@ class TabB extends StatelessWidget {
             child: const Center(
               child: Text(
                 'Widget 3',
-                style: TextStyle(fontSize: 24, color: Colors.white),
+                style: TextStyle(fontSize: 24, color: Colors.black),
               ),
             ),
           );
