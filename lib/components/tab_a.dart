@@ -37,7 +37,19 @@ class TabA extends StatelessWidget {
                 );
               },
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
+            const Center(
+              child: Text(
+                'Widget 2',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 18.0,
+                  letterSpacing: 0.8,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const SizedBox(height: 40),
             Obx(
               () => Container(
                 width: 500,

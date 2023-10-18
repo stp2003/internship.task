@@ -33,7 +33,7 @@ class TabB extends StatelessWidget {
             color: randomColor,
             child: const Center(
               child: Text(
-                'Random Color',
+                'Widget 3',
                 style: TextStyle(fontSize: 24, color: Colors.white),
               ),
             ),
